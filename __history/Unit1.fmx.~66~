@@ -1,0 +1,936 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = None
+  ClientHeight = 597
+  ClientWidth = 355
+  Position = DesktopCenter
+  Transparency = True
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop, iPhone, iPad]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 3
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFFECECEC
+    Padding.Left = 20.000000000000000000
+    Padding.Top = 30.000000000000000000
+    Padding.Right = 20.000000000000000000
+    Padding.Bottom = 20.000000000000000000
+    Size.Width = 355.000000000000000000
+    Size.Height = 597.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    Stroke.Cap = Round
+    Stroke.Join = Round
+    XRadius = 20.000000000000000000
+    YRadius = 20.000000000000000000
+    OnMouseDown = Rectangle1MouseDown
+    object Rectangle21: TRectangle
+      Align = Client
+      Fill.Kind = None
+      Size.Width = 315.000000000000000000
+      Size.Height = 228.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Rectangle19: TRectangle
+        Align = Contents
+        Fill.Color = xFF525B72
+        Margins.Left = 5.000000000000000000
+        Margins.Right = 5.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 305.000000000000000000
+        Size.Height = 218.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        Stroke.Cap = Round
+        Stroke.Join = Round
+        XRadius = 10.000000000000000000
+        YRadius = 10.000000000000000000
+        object textPrevious: TText
+          Align = Top
+          HitTest = False
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Size.Width = 285.000000000000000000
+          Size.Height = 28.000000000000000000
+          Size.PlatformDefault = False
+          Text = '231354 +'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.FontColor = xFFF0F0F0
+          TextSettings.HorzAlign = Trailing
+        end
+        object textCurrent: TText
+          Align = Top
+          HitTest = False
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Position.X = 10.000000000000000000
+          Position.Y = 28.000000000000000000
+          Size.Width = 285.000000000000000000
+          Size.Height = 41.000000000000000000
+          Size.PlatformDefault = False
+          Text = '123'
+          TextSettings.Font.Family = 'Tahoma'
+          TextSettings.Font.Size = 24.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+          TextSettings.HorzAlign = Trailing
+          TextSettings.VertAlign = Leading
+        end
+        object Rectangle22: TRectangle
+          Align = Bottom
+          Fill.Color = xFF525B72
+          Position.Y = 160.000000000000000000
+          Size.Width = 305.000000000000000000
+          Size.Height = 58.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Circle1: TCircle
+            Align = Left
+            Cursor = crHandPoint
+            Fill.Color = xFF444F6C
+            Margins.Left = 5.000000000000000000
+            Margins.Bottom = 5.000000000000000000
+            Position.X = 5.000000000000000000
+            Size.Width = 52.000000000000000000
+            Size.Height = 53.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+            OnClick = Circle1Click
+            object Text18: TText
+              Align = Center
+              HitTest = False
+              Size.Width = 45.000000000000000000
+              Size.Height = 94.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'C'
+              TextSettings.Font.Family = 'Tahoma'
+              TextSettings.Font.Size = 24.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+            end
+            object ColorAnimation17: TColorAnimation
+              Duration = 0.200000002980232200
+              PropertyName = 'Fill.Color'
+              StartValue = xFF444F6C
+              StopValue = claTomato
+              Trigger = 'IsMouseOver=true'
+              TriggerInverse = 'IsMouseOver=false'
+            end
+          end
+        end
+      end
+    end
+    object Rectangle18: TRectangle
+      Align = Bottom
+      Fill.Kind = None
+      Position.X = 20.000000000000000000
+      Position.Y = 258.000000000000000000
+      Size.Width = 315.000000000000000000
+      Size.Height = 319.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object GridPanelLayout1: TGridPanelLayout
+        Align = Bottom
+        Position.Y = 159.000000000000000000
+        Size.Width = 315.000000000000000000
+        Size.Height = 160.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        ColumnCollection = <
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Rectangle2
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = Rectangle3
+            Row = 0
+          end
+          item
+            Column = 2
+            Control = Rectangle4
+            Row = 0
+          end
+          item
+            Column = 3
+            Control = Rectangle5
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = Rectangle6
+            Row = 1
+          end
+          item
+            Column = 1
+            Control = Rectangle7
+            Row = 1
+          end
+          item
+            Column = 2
+            Control = Rectangle8
+            Row = 1
+          end
+          item
+            Column = 3
+            Control = Rectangle9
+            Row = 1
+          end>
+        RowCollection = <
+          item
+            Value = 50.000000000000000000
+          end
+          item
+            Value = 50.000000000000000000
+          end>
+        object Rectangle2: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF444F6C
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          OnClick = Rectangle2Click
+          object Text9: TText
+            Align = Client
+            HitTest = False
+            Size.Width = 68.750000000000000000
+            Size.Height = 70.000000000000000000
+            Size.PlatformDefault = False
+            Text = '1'
+            TextSettings.Font.Family = 'Tahoma'
+            TextSettings.Font.Size = 28.000000000000000000
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation7: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF444F6C
+            StopValue = xFF535E7A
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+        object Rectangle3: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF444F6C
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Text10: TText
+            Align = Client
+            HitTest = False
+            Size.Width = 68.750000000000000000
+            Size.Height = 70.000000000000000000
+            Size.PlatformDefault = False
+            Text = '2'
+            TextSettings.Font.Family = 'Tahoma'
+            TextSettings.Font.Size = 28.000000000000000000
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation10: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF444F6C
+            StopValue = xFF535E7A
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+        object Rectangle4: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF444F6C
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Text11: TText
+            Align = Client
+            HitTest = False
+            Size.Width = 68.750000000000000000
+            Size.Height = 70.000000000000000000
+            Size.PlatformDefault = False
+            Text = '3'
+            TextSettings.Font.Family = 'Tahoma'
+            TextSettings.Font.Size = 28.000000000000000000
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation9: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF444F6C
+            StopValue = xFF535E7A
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+        object Rectangle5: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF7077D8
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Text4: TText
+            Align = Client
+            HitTest = False
+            Margins.Bottom = 5.000000000000000000
+            Size.Width = 68.750000000000000000
+            Size.Height = 65.000000000000000000
+            Size.PlatformDefault = False
+            Text = '-'
+            TextSettings.Font.Family = 'Times New Roman'
+            TextSettings.Font.Size = 36.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation3: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF7077D8
+            StopValue = xFF878DDF
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+        object Rectangle6: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF444F6C
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Text8: TText
+            Align = Client
+            HitTest = False
+            Size.Width = 68.750000000000000000
+            Size.Height = 70.000000000000000000
+            Size.PlatformDefault = False
+            Text = '0'
+            TextSettings.Font.Family = 'Tahoma'
+            TextSettings.Font.Size = 28.000000000000000000
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation8: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF444F6C
+            StopValue = xFF535E7A
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+        object Rectangle7: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF7077D8
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Text7: TText
+            Align = Client
+            HitTest = False
+            Margins.Bottom = 15.000000000000000000
+            Size.Width = 68.750000000000000000
+            Size.Height = 55.000000000000000000
+            Size.PlatformDefault = False
+            Text = '.'
+            TextSettings.Font.Family = 'Times New Roman'
+            TextSettings.Font.Size = 36.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation6: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF7077D8
+            StopValue = xFF878DDF
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+        object Rectangle8: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF7077D8
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Text6: TText
+            Align = Client
+            HitTest = False
+            Margins.Bottom = 2.000000000000000000
+            Size.Width = 68.750000000000000000
+            Size.Height = 68.000000000000000000
+            Size.PlatformDefault = False
+            Text = '='
+            TextSettings.Font.Family = 'Times New Roman'
+            TextSettings.Font.Size = 36.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation5: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF7077D8
+            StopValue = xFF878DDF
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+        object Rectangle9: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF7077D8
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          OnClick = Rectangle9Click
+          object Text5: TText
+            Align = Client
+            HitTest = False
+            Margins.Bottom = 2.000000000000000000
+            Size.Width = 68.750000000000000000
+            Size.Height = 68.000000000000000000
+            Size.PlatformDefault = False
+            Text = '+'
+            TextSettings.Font.Family = 'Times New Roman'
+            TextSettings.Font.Size = 36.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation4: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF7077D8
+            StopValue = xFF878DDF
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+      end
+      object GridPanelLayout2: TGridPanelLayout
+        Align = Bottom
+        Position.Y = -1.000000000000000000
+        Size.Width = 315.000000000000000000
+        Size.Height = 160.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Rectangle10
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = Rectangle11
+            Row = 0
+          end
+          item
+            Column = 2
+            Control = Rectangle12
+            Row = 0
+          end
+          item
+            Column = 3
+            Control = Rectangle13
+            Row = 0
+          end
+          item
+            Column = 0
+            Control = Rectangle14
+            Row = 1
+          end
+          item
+            Column = 1
+            Control = Rectangle15
+            Row = 1
+          end
+          item
+            Column = 2
+            Control = Rectangle16
+            Row = 1
+          end
+          item
+            Column = 3
+            Control = Rectangle17
+            Row = 1
+          end>
+        RowCollection = <
+          item
+            Value = 50.000000000000000000
+          end
+          item
+            Value = 50.000000000000000000
+          end>
+        object Rectangle10: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF444F6C
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Text17: TText
+            Align = Client
+            HitTest = False
+            Size.Width = 68.750000000000000000
+            Size.Height = 70.000000000000000000
+            Size.PlatformDefault = False
+            Text = '7'
+            TextSettings.Font.Family = 'Tahoma'
+            TextSettings.Font.Size = 28.000000000000000000
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation11: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF444F6C
+            StopValue = xFF535E7A
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+        object Rectangle11: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF444F6C
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Text16: TText
+            Align = Client
+            HitTest = False
+            Size.Width = 68.750000000000000000
+            Size.Height = 70.000000000000000000
+            Size.PlatformDefault = False
+            Text = '8'
+            TextSettings.Font.Family = 'Tahoma'
+            TextSettings.Font.Size = 28.000000000000000000
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation12: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF444F6C
+            StopValue = xFF535E7A
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+        object Rectangle12: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF444F6C
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Text15: TText
+            Align = Client
+            HitTest = False
+            Size.Width = 68.750000000000000000
+            Size.Height = 70.000000000000000000
+            Size.PlatformDefault = False
+            Text = '9'
+            TextSettings.Font.Family = 'Tahoma'
+            TextSettings.Font.Size = 28.000000000000000000
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation13: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF444F6C
+            StopValue = xFF535E7A
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+        object Rectangle13: TRectangle
+          Align = Center
+          Cursor = crHandPoint
+          Fill.Color = xFF7077D8
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.500000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Text2: TText
+            Align = Client
+            HitTest = False
+            Margins.Top = 3.000000000000000000
+            Size.Width = 68.500000000000000000
+            Size.Height = 67.000000000000000000
+            Size.PlatformDefault = False
+            Text = #247
+            TextSettings.Font.Family = 'Times New Roman'
+            TextSettings.Font.Size = 36.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation1: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF7077D8
+            StopValue = xFF878DDF
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+        object Rectangle14: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF444F6C
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Text12: TText
+            Align = Client
+            HitTest = False
+            Size.Width = 68.750000000000000000
+            Size.Height = 70.000000000000000000
+            Size.PlatformDefault = False
+            Text = '4'
+            TextSettings.Font.Family = 'Tahoma'
+            TextSettings.Font.Size = 28.000000000000000000
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation14: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF444F6C
+            StopValue = xFF535E7A
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+        object Rectangle15: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF444F6C
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Text13: TText
+            Align = Client
+            HitTest = False
+            Size.Width = 68.750000000000000000
+            Size.Height = 70.000000000000000000
+            Size.PlatformDefault = False
+            Text = '5'
+            TextSettings.Font.Family = 'Tahoma'
+            TextSettings.Font.Size = 28.000000000000000000
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation15: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF444F6C
+            StopValue = xFF535E7A
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+        object Rectangle16: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF444F6C
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Text14: TText
+            Align = Client
+            HitTest = False
+            Size.Width = 68.750000000000000000
+            Size.Height = 70.000000000000000000
+            Size.PlatformDefault = False
+            Text = '6'
+            TextSettings.Font.Family = 'Tahoma'
+            TextSettings.Font.Size = 28.000000000000000000
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation16: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF444F6C
+            StopValue = xFF535E7A
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+        object Rectangle17: TRectangle
+          Align = Client
+          Cursor = crHandPoint
+          Fill.Color = xFF7077D8
+          Margins.Left = 5.000000000000000000
+          Margins.Top = 5.000000000000000000
+          Margins.Right = 5.000000000000000000
+          Margins.Bottom = 5.000000000000000000
+          Size.Width = 68.750000000000000000
+          Size.Height = 70.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          Stroke.Cap = Round
+          Stroke.Join = Round
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          object Text3: TText
+            Align = Client
+            HitTest = False
+            Margins.Top = 3.000000000000000000
+            Size.Width = 68.750000000000000000
+            Size.Height = 67.000000000000000000
+            Size.PlatformDefault = False
+            Text = 'X'
+            TextSettings.Font.Family = 'Aharoni'
+            TextSettings.Font.Size = 18.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhite
+          end
+          object ColorAnimation2: TColorAnimation
+            Duration = 0.200000002980232200
+            PropertyName = 'Fill.Color'
+            StartValue = xFF7077D8
+            StopValue = xFF878DDF
+            Trigger = 'IsMouseOver=true'
+            TriggerInverse = 'IsMouseOver=false'
+          end
+        end
+      end
+    end
+  end
+  object Brush1: TBrushObject
+    StyleName = 'Brush1'
+    Brush.Color = xFF7077D8
+  end
+  object Brush2: TBrushObject
+    StyleName = 'Brush2'
+    Brush.Color = xFF444F6C
+  end
+  object Rectangle20: TRectangle
+    Fill.Kind = None
+    Position.X = 328.000000000000000000
+    Position.Y = -9.000000000000000000
+    Size.Width = 41.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Circle2: TCircle
+      Cursor = crHandPoint
+      Fill.Color = xFF9A9A9A
+      Position.Y = 9.000000000000000000
+      Size.Width = 29.000000000000000000
+      Size.Height = 26.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = Circle2Click
+      object ColorAnimation18: TColorAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'Fill.Color'
+        StartValue = xFF9A9A9A
+        StopValue = claTomato
+        Trigger = 'IsMouseOver=true'
+        TriggerInverse = 'IsMouseOver=false'
+      end
+      object FloatAnimation1: TFloatAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'Size.Height'
+        StartValue = 25.000000000000000000
+        StopValue = 35.000000000000000000
+        Trigger = 'IsMouseOver=true'
+        TriggerInverse = 'IsMouseOver=false'
+      end
+      object FloatAnimation2: TFloatAnimation
+        Duration = 0.200000002980232200
+        PropertyName = 'Size.Width'
+        StartValue = 25.000000000000000000
+        StopValue = 35.000000000000000000
+        Trigger = 'IsMouseOver=true'
+        TriggerInverse = 'IsMouseOver=false'
+      end
+      object Text1: TText
+        Align = Center
+        HitTest = False
+        Margins.Top = 1.000000000000000000
+        Size.Width = 25.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'X'
+        TextSettings.Font.Family = 'Aharoni'
+        TextSettings.Font.Size = 14.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+      end
+    end
+  end
+end

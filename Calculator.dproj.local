@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/01/13 04:14:18.000.575,=C:\Users\Hamza\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/04 13:43:16.000.905,=C:\Users\Hamza\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/02/04 14:05:09.000.662,C:\Users\Hamza\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Hamza\Desktop\Calculator Delphi Project\Unit1.fmx</Transaction>
+    <Transaction>2022/02/04 14:05:09.000.662,C:\Users\Hamza\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Hamza\Desktop\Calculator Delphi Project\Unit1.pas</Transaction>
+    <Transaction>2022/02/04 14:05:16.000.606,C:\Users\Hamza\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Hamza\Desktop\Calculator Delphi Project\Calculator.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android="33006584c0c9a38d" Android64="33006584c0c9a38d"/>
+	</ActiveMobileDevice>
+</BorlandProject>
